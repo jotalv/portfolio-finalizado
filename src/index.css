@@ -1,0 +1,234 @@
+* {
+  font-family: 'JetBrains Mono';
+  margin: 0;
+  padding: 0;
+  color: #fafafa;
+}
+
+body {
+  background-color: black;
+}
+
+.title {
+  font-size: 2rem;
+  padding-bottom: 5%;
+}
+
+.landing-section {
+  background-color: black;
+  min-height: 100vh;
+  height: auto;
+}
+
+.landing-content {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-text {
+  font-size: 1.2rem;
+}
+
+.paragrafo-botao {
+  margin-top: 25%;
+}
+
+.btn {
+  background-color: #00bfff;
+  width: 100px;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 5px 30px;
+  border-radius: 1rem;
+  transition: .25s ease;
+}
+
+.btn:hover {
+  background-color: #00455c;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Espaço entre as áreas esquerda e central */
+  align-items: center;
+  padding: 0px 20px; /* Espaçamento interno */
+  background-color: #1f1f1f; /* Fundo da navbar */
+  border-bottom: 2px solid #333; /* Linha inferior */
+  width: auto;
+}
+
+.navbar-left {
+  flex: 1; /* Ocupa espaço à esquerda */
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  color: #fafafa;
+}
+
+.navbar-center {
+  flex: 2; /* Centraliza os links */
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  list-style: none; /* Remove bullets */
+}
+
+.navbar-links li {
+  margin: 0 15px; /* Espaço entre os links */
+}
+
+.navbar-links a {
+  color: #fafafa; /* Cor do texto */
+  text-decoration: none; /* Remove o sublinhado */
+  font-size: 1rem;
+  transition: color 0.3s ease; /* Efeito de transição no hover */
+}
+
+.navbar-links a:hover {
+  color: #00bfff; /* Cor ao passar o mouse */
+}
+
+.img {
+  width: 15%;
+  padding-left: 5%;
+  padding-top: 1%;
+}
+
+.content-saiba-mais {
+  margin-top: 5%;
+  margin: 5%;
+}
+
+.text-saiba-mais {
+  margin-top: 1%;
+}
+
+.minhas-habilidades {
+  margin-top: 2%;
+}
+
+.proximo-passo {
+  margin-top: 2%;
+}
+
+.projetos-div {
+  margin-top: 15%;
+}
+
+.projetos-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 4%;
+}
+
+.content-projetos {
+  margin: 0 10%;
+}
+
+.ver-no-git {
+  background-color: #00bfff;
+  padding: 5px 25px;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: .4s ease;
+  border-radius: 1rem;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  width: 10%;
+  justify-content: center;
+  text-align: center;
+}
+
+.ver-no-git:hover {
+  background-color: #00455c;
+}
+
+.acesse-ja {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contato-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contato-title {
+  margin-bottom: 10%;
+  font-size: 2rem;
+}
+
+.contato-section p {
+  margin-bottom: 1%;
+  font-size: 1.2rem;
+}
+
+.contato-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 88vh;
+}
+
+@media (max-width: 768px) {
+    .content-saiba-mais {
+      margin: 10% 5%;
+    }
+
+    .saiba-mais-sobre-mim {
+      margin-bottom: 5%;
+    }
+
+    .text-saiba-mais {
+      margin-bottom: 5%;
+    }
+
+    .projetos-title {
+      font-size: 1.5rem;
+      margin: 10%;
+    }
+
+    .content-projetos {
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .ver-no-git {
+      font-size: .8rem;
+      margin: 10%;
+      width: 40%;
+      height: 1.5rem;
+    }
+
+    .contato-title {
+      margin: 10% 5%;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .contato-div {
+      font-size: .5rem;
+    }
+
+    .navbar-logo {
+      width: 90%;
+    }
+
+    .navbar-center {
+      font-size: .6rem;
+      padding: 0;
+    }
+  }
