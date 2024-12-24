@@ -2,7 +2,7 @@ function Navbar() {
     return (
       <nav className="navbar">
         <div className="navbar-left">
-          <a href="/"><img className="navbar-logo img" src="./lv.png"/></a>
+          <a href="/"><img className="navbar-logo img" src="../../public/lv.png"/></a>
         </div>
         <div className="navbar-center">
           <ul className="navbar-links">
